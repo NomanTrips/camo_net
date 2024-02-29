@@ -16,6 +16,9 @@ to train an RCNN on this task and also some langchain agent scripts to have GPT-
 3. Modify the scripts to point to where you downloaded the data.
 2. Create a .env file in the directory containing your OPENAI_API_KEY (if you're using the agent scripts).
 
+### Dataset
+- https://huggingface.co/datasets/jubba/camouflaged_animals
+
 ### Usage
 - Fintune a basic RCNN from the pytorch hub on the task: python finetune_rcnn.py
 - Have GPT-4 write and train a network to perform the task: python ai_engineer.py
